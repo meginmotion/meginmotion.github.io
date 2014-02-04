@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "utf-8";
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+body {
+      text-align: center;
+      background: url(http://i.imgur.com/g9sr1ru.jpg);
+      background-size: 100%;
+      background-position: center;
+	  background-repeat: repeat;
+      font-family: helvetica;
+}
+
+.topimg {
+	padding: 0%;
+	margin: 0%;
+}
+
+.textarea {
+	clear: both;
+	background-color: white;
+	border-radius: 25px;
+    display: inline-block;
+    color: #40C7FA;
+    max-width: 750px;
+    max-height: 1800px;
+	width: 100%;
+	height: 100%;
+}
+
+.bodytext {
+	padding: 3%;
+	text-align: left;
+}
+
+p {
+      font-size: 22px;
+}
+
+b {
+	color: #77B830;
+}
+
+hr {
+	color: #77B82A;
+	background-color: #77B82A;
+	height: 2px;
+}
+
+h1 {
+	font-size: 35px;
+	color: #FAF38A;
+	text-align: center;
+	text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+h3 {
+	color: #593E0D;
+}
+
+
+input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+}
+
+input[type="button"] {
+      background: red;
+      color: white;
+}
+
+.left {
+	position: relative;
+	float: left;
+	padding-left: 1%;
+	width: 67%;
+	height: 100%;
+}
+
+.left p {
+	font-size: 16px;
+}
+
+.right {
+	position: relative;
+	float: right;
+	padding-left: 1%;
+	width: 30%;
+	height: 100%;
+}
+
+.right p {
+	font-size: 16px;
+}
+
+/*------------------------------------*\
+	NAVIGATION
+\*------------------------------------*/
+nav#button ul {
+	list-style-type:none; /*remove the bullet point from the list items*/
+	padding-bottom: 2%;
+}
+
+nav#button li {
+	display:inline;
+	font-size:1.1em;
+}
+
+nav#button a {
+	color: #fff;
+	text-decoration: none;
+	padding:10px 10px;
+	text-transform:uppercase;
+	text-shadow: 0px 1px 0px #414141;
+/*give the button a gradient background*/
+	background: #F00; /*for browsers that don't support gradients*/
+	background: -moz-linear-gradient(top, #F00, #FCC9CD);
+	background: -webkit-linear-gradient(top, #F00, #FCC9CD);
+	background: -o-linear-gradient(top, #F00, #FCC9CD);
+	background: -ms-linear-gradient(top, #F00, #FCC9CD);
+	background: linear-gradient(top #F00, #FCC9CD);
+	-pie-background: linear-gradient(#F00, #FCC9CD); /*IE8 and earlier see CSS3Pie website for more info*/
+/*apply a small curve to the button corners*/
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+/*add a drop shadow to the button*/
+	-webkit-box-shadow: rgba(54,59,64, .75) 0 0 4px;
+	-moz-box-shadow: rgba(54,59,64, .75) 0 0 4px;
+	box-shadow: rgba(54,59,64, .75) 0 0 4px;
+}
+
+nav#button a:hover, a:focus {
+	color:#fff;
+	background:#F00;
+	-pie-background:#F00;
+	text-shadow:none;
+	-webkit-box-shadow: rgba(54,59,64, .75) 0 0 2px;
+	-moz-box-shadow: rgba(54,59,64, .75) 0 0 2px;
+	box-shadow: rgba(54,59,64, .75) 0 0 2px;
+}
+
+nav#button .now {
+	color: #fff;
+	background: #F00;
+}
+
