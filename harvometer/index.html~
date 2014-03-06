@@ -2,28 +2,15 @@
 
 {% block content %}
 <div class="container">
-  <h1>Veterans to Help Meet Harvey's Goals</h1>
+  <h1>Veterans Propose Solution to Daunting Goal</h1>
 
   <h4>Chancellor Harvey Perlman has set an ambitious enrollment goal of 30,000 students by 2017.</h4> 
-<p> In order to help achieve this challenge, the Student Veteran's Organization would like to propose building a Military and Veterans Center.</p>
-
-  {% if SPREADSHEET_KEY %}
-  <p>A Center would attract significantly more Military members, Veterans and their dependents to the University of Nebraska - Lincoln which would: </p>
-<ul> 
-  <li> Increase the total student enrollment </li>
-  <li> Provide added revenue to the University of Nebraska - Lincoln </li>
-  </ul>
-  
-  {% else %}
- 
-  {% endif %}
-
+<p>The enrollment chart below indicates that this goal is <i>slightly</i> unrealistic, but the UNL Student Veteran's Organization is optimistic and would like to propose building a Military and Veterans Center as one solution to this daunting task.</p>
 
 <img src="chart1.png" alt="chart" width="100%" style="padding-bottom:20px;">
 
+<div class="col-md-6">
     <p>Data:</p>
-
-        
     
           <div class="table-responsive">
             <table class="table table-striped">
@@ -45,11 +32,37 @@
                 </tbody>
                 </table>
                 </div>    
+    </div>
     
-    
-    
-    
-  </div>
+    <div class="col-md-6">
+
+<h3> A Veteran center would be sure to increase interest by prior military members to UNL, assisting Harvey in reaching his goal.</h3>
+
+    <h4>A Center would attract significantly more Military members, Veterans and their dependents to the University of Nebraska - Lincoln which would:
+
+<ul> 
+  <li> Increase the total student enrollment </li>
+  <li> Provide added revenue to the University of Nebraska - Lincoln </li>
+  <li> Meet the needs of student veterans through the process of admissions, financial aid, orientation, financial aid, credit evaluation of military training, information on state and federal benefits for veterans as well as a host of resources veterans can draw upon.</li>
+  <li> Enrich the campus community by establishing a student veteran presence on campus.</li>
+  </ul>
+
+<p> Veterans may want a dedicated space on campus to call their own, in which to find community, resources, or use as an escape from the hustle and bustle of campus. The center could feature computer labs, academic services, special events, meeting spaces and customized web-based services for veterans.</p>
+	</h4>
+
+<h3>Why More Veterans?</h3>
+
+<h4>
+<p>Including veterans in your student population is certainly the right thing to do, but just as our returning veterans gain value from their higher education experience, your institution stands to benefit from their participation, as well. As with other adult learners who bring real world “work” experience to the campus and classroom, student veterans bring with them an unmatched real “world” experience.
+But they also bring a new level of diversity, unprecedented leadership, and untapped levels of motivation. When the appropriate programs and services are provided, many institutions find their student veteran population outshines their general population in GPA, retention, and graduation rates. 
+The G.I. Bill saves colleges money in the form of financial aid for these students, money that would otherwise have been spent on aid for them.</p>
+<p>The average amount of financial aid received by nonmilitary nontraditional undergraduates
+at public four-year colleges is $8,100. Compared to the average amount
+of financial aid received by nonmilitary traditional undergraduates at public four-year
+colleges is $9,900.</p>
+</h4>
+
+</div>  
   
 </div>
 {% endblock content %}
