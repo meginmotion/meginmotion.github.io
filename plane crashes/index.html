@@ -1,0 +1,280 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fnil\fcharset0 Consolas-Bold;\f1\fnil\fcharset0 Consolas;\f2\fnil\fcharset0 Consolas-Italic;
+\f3\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red135\green135\blue135;\red38\green38\blue38;\red0\green0\blue109;
+\red14\green110\blue109;\red210\green0\blue53;\red135\green136\blue117;\red255\green255\blue255;\red255\green255\blue193;
+\red38\green38\blue38;\red0\green0\blue109;\red14\green110\blue109;\red210\green0\blue53;\red26\green26\blue26;
+}
+\margl1440\margr1440\vieww20580\viewh14680\viewkind0
+\deftab720
+\pard\pardeftab720\sl360
+
+\f0\b\fs24 \cf2 <!DOCTYPE html>
+\f1\b0 \cf3 \
+\pard\pardeftab720\sl360
+\cf4 <html>\cf3 \
+\cf4 <head>\cf3 \
+\'a0\'a0\cf4 <title>\cf3 Plane Crashes\cf4 </title>\cf3 \
+\'a0\'a0\cf4 <link\cf3  \cf5 rel=\cf6 "shortcut icon"\cf3  \cf5 href=\cf6 "/favicon.ico"\cf3  \cf4 />\cf3 \
+\
+\'a0\'a0\
+\'a0\'a0\cf4 <link\cf3  \cf5 rel=\cf6 "stylesheet"\cf3  \cf5 type=\cf6 "text/css"\cf3  \cf5 href=\cf6 "http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css"\cf3  \cf4 />\cf3 \
+\'a0\'a0\cf4 <link\cf3  \cf5 rel=\cf6 "stylesheet"\cf3  \cf5 type=\cf6 "text/css"\cf3  \cf5 href=\cf6 "//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.2/css/font-awesome.min.css"\cf3  \cf4 />\cf3 \
+\'a0\'a0\cf4 <link\cf3  \cf5 rel=\cf6 "stylesheet"\cf3  \cf5 type=\cf6 "text/css"\cf3  \cf5 href=\cf6 "base.css"\cf3  \cf4 />\cf3 \
+\'a0\'a0\
+\
+\'a0\'a0\'a0\
+\'a0\'a0\cf4 <meta\cf3  \cf5 property=\cf6 "og:url"\cf3  \cf5 content=\cf6 "127.0.0.1:5000/index.html"\cf3  \cf4 />\cf3 \
+\'a0\'a0\cf4 <meta\cf3  \cf5 property=\cf6 "og:title"\cf3  \cf5 content=\cf6 \'93Plane Crashes\'94\cf3  \cf4 />\cf3 \
+\'a0\'a0\cf4 <meta\cf3  \cf5 property=\cf6 "og:type"\cf3  \cf5 content=\cf6 "website"\cf3  \cf4 />\cf3 \
+\'a0\'a0\cf4 <meta\cf3  \cf5 property=\cf6 "og:image"\cf3  \cf5 content=\cf6 ""\cf3  \cf4 />\cf3 \
+\'a0\'a0\cf4 <meta\cf3  \cf5 property=\cf6 "og:description"\cf3  \cf5 content=\cf6 ""\cf3  \cf4 />\cf3 \
+\'a0\'a0\
+\
+\'a0\'a0\
+\'a0\'a0
+\f2\i \cf7 <!--[if lt IE 9]>
+\f1\i0 \cf3 \
+\pard\pardeftab720\sl360
+
+\f2\i \cf7   <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+\f1\i0 \cf3 \
+
+\f2\i \cf7   <![endif]-->
+\f1\i0 \cf3 \
+\'a0\'a0\
+\
+\'a0\'a0\
+\'a0\'a0\cf4 <meta\cf3  \cf5 http-equiv=\cf6 "content-type"\cf3  \cf5 content=\cf6 "text/html; charset=utf-8"\cf4 >\cf3 \
+\'a0\'a0\cf4 <meta\cf3  \cf5 name=\cf6 "viewport"\cf3  \cf5 content=\cf6 "width=device-width, initial-scale=1.0"\cf4 >\cf3 \
+\'a0\'a0\
+\
+\'a0\'a0\
+\'a0\'a0\
+\'a0\'a0\
+\pard\pardeftab720\sl360
+\cf4 </head>\cf3 \
+\cf4 <body\cf3  \cf5 class=\cf6 "page-index"\cf4 >\cf3 \
+\
+\
+\'a0\'a0\cf4 <nav\cf3  \cf5 class=\cf6 "navbar navbar-default navbar-fixed-top"\cf3  \cf5 role=\cf6 "navigation"\cf4 >\cf3 \
+\'a0\'a0\cf4 <div\cf3  \cf5 class=\cf6 "container"\cf4 >\cf3 \
+\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\cf4 <div\cf3  \cf5 class=\cf6 "navbar-header"\cf4 >\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <button\cf3  \cf5 type=\cf6 "button"\cf3  \cf5 class=\cf6 "navbar-toggle"\cf3  \cf5 data-toggle=\cf6 "collapse"\cf3  \cf5 data-target=\cf6 ".navbar-ex1-collapse"\cf4 >\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <span\cf3  \cf5 class=\cf6 "sr-only"\cf4 >\cf3 Toggle navigation\cf4 </span>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <span\cf3  \cf5 class=\cf6 "icon-bar"\cf4 ></span>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <span\cf3  \cf5 class=\cf6 "icon-bar"\cf4 ></span>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <span\cf3  \cf5 class=\cf6 "icon-bar"\cf4 ></span>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </button>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <a\cf3  \cf5 class=\cf6 "navbar-brand"\cf3  \cf5 href=\cf6 "./"\cf4 >\cf3 Increasing the Numbers\cf4 </a>\cf3 \
+\'a0\'a0\'a0\'a0\cf4 </div>\cf3 \
+\
+\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\cf4 <div\cf3  \cf5 class=\cf6 "collapse navbar-collapse navbar-ex1-collapse"\cf4 >\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <ul\cf3  \cf5 class=\cf6 "nav navbar-nav"\cf4 >\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </ul>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <ul\cf3  \cf5 class=\cf6 "social-menu nav navbar-nav navbar-right"\cf4 >\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </ul>\cf3 \
+\
+\'a0\'a0\'a0\'a0\cf4 </div>\cf3 \
+\'a0\'a0\cf4 </div>\cf3 \
+\cf4 </nav>\cf3 \
+\
+\
+\
+\cf4 <div\cf3  \cf5 class=\cf6 "container"\cf4 >\cf3 \
+\'a0\'a0\cf4 <h1\cf3  \cf5 style=\cf6 "padding-top:40px;"\cf4 >\cf3 Veterans Propose Solution to Daunting Goal\cf4 </h1>\cf3 \
+\
+\'a0\'a0\cf4 <h4>
+\f3\fs28 \cf0 If you are going to worry about dying, there are many more probable ways to die than on a commercial jet.
+\f1\fs24 \cf4 </h4>\cf3  \
+\cf4 <p>
+\f3\fs28 \cf0 \cb8 Take a look at the chart below, which shows the chance of fatalities on a commercial flight compared to other causes of death in the United States. Notice that you are 
+\b more likely to die from a bee sting
+\b0  than from a commercial flight. 
+\b Whenever we fly, we have a one one-hundred-thousandth of one percent (.000014%) chance of dying!
+\f1\b0\fs24 \cf4 \cb1 </p>\cf3 \
+<p>Sources: 
+\f3\fs28 \cf0 \cb9 Natural History Museum of Los Angeles County, Massachusetts Institute of Technology, University of California at Berkeley</p>
+\f1\fs24 \cf3 \cb1 \
+\
+\cf4 <div\cf3  \cf5 class=\cf6 "col-md-6"\cf4 >\cf3 \
+\'a0\'a0\'a0\'a0\cf4 <p>\cf3 Data:\cf4 </p>\cf3 \
+\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <div\cf3  \cf5 class=\cf6 "table-responsive"\cf4 >\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <table\cf3  \cf5 class=\cf6 "table table-striped"\cf4 >\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <thead>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <th>\cf3 Death By\cf4 </th>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <th>\cf3 Your Odds\cf4 </th>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </thead>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tbody>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Cardiovascular disease\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 1 in 2\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Smoking (by/before age 35)\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 1 in 600\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Car Trip, coast-to-coast\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 1 in 14,000\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Bicycle Accident\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 1 in 88,000\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Tornado\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 1 in 450,000\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Train, coast-to-coast\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 1 in 1,000,000\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\
+\pard\pardeftab720\sl360
+\cf10 \'a0\'a0\'a0\'a0			\cf11 <tr>\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 <td>\cf10 Lightening\cf11 </td>\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 <td>\cf10 1 in 1.9 million\cf11 </td>\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 </tr>\cf3 \
+\pard\pardeftab720\sl360
+\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Bee Sting\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 1 in 5.5 million\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 US Commercial Jet Airline\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 1 in 7 million\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf10 \'a0\cf11 </tbody>\cf10 \
+\pard\pardeftab720\sl360
+\cf10 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 </table>\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 </div>\cf10   \
+\
+<p>
+\f3\fs28 \cf0 \cb8 How about accidental deaths? In the chart below you can compare the average number of airline fatalities per year (not including commuter airlines) from 1981 to 1994 with the most recent figures for other forms of accidental death</p>\
+
+\f1\fs24 \cf10 \cb1 \
+\cf11 <img\cf10  \cf12 src=\cf13 "chart.png"\cf10  \cf12 alt=\cf13 "chart"\cf10  \cf12 width=\cf13 "100%"\cf10  \cf12 style=\cf13 "padding-bottom:20px;"\cf11 >\cf10 \
+\
+\'a0\'a0\cf11 <table\cf10  \cf12 class=\cf13 "table table-striped"\cf11 >\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 <thead>\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 <tr>\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 <th>\cf10 Form\cf11 </th>\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 <th>\cf10 Number of Accidental Deaths\cf11 </th>\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 </tr>\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 </thead>\cf10 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf11 <tbody>\cf10 \
+\pard\pardeftab720\sl360
+\cf3 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Commercial Flight\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 100\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Bicycles\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 1000\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Pedestrians\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 8000\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 Auto Accidents\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 <td>\cf3 46000\cf4 </td>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tr>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </tbody>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </table>\cf3 \
+\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf4 </div>\cf3     \
+\'a0\'a0\'a0\'a0\cf4 </div>\cf3 \
+\'a0\'a0\'a0\'a0\
+\'a0\'a0\'a0\'a0\cf4 <div\cf3  \cf5 class=\cf6 "col-md-6"\cf4 >\cf3 \
+\
+\'a0\'a0\'a0\'a0\cf4 <h4>\cf3 Even if you were to get into a plane crash, surviving it may be the best thing that has ever happened to you. 
+\f3\fs32 \cf14 \cb8 At the American Psychological Association\'92s annual convention in 1999, researchers from Virginia\'92s Old Dominion University presented some unique findings: Plane crash survivors were:
+\f1\fs24 \cf3 \cb1 \
+\
+\pard\pardeftab720\sl360
+\cf4 <ul>\cf3  \
+\'a0\'a0\cf4 <li>\cf3  Healthier psychologically \cf4 </li>\cf3 \
+\'a0\'a0\cf4 <li>\cf3  Lived with substantially less anxiety\cf4 </li>\cf3 \
+\'a0\'a0\cf4 <li>\cf3  Less depressed\cf4 </li>\cf3 \
+\'a0\'a0\cf4 <li>\cf3  Suffered less from PTSD than travelers who had never been involved in an aviation accident\cf4 </li>\cf3 \
+\'a0\'a0\cf4 </ul>\cf3 \
+\
+\cf4 <p>\cf3  Here are few more tidbits about plane crashes that you might not know:\cf4 </p>\cf3 \
+\pard\pardeftab720\sl360
+\cf11 <ul>\cf10  \
+\'a0\'a0\cf11 <li>\cf10  The first 90 seconds of a crash is known as \'93golden time\'94.  \cf11 </li>\cf10 \
+\'a0\'a0\cf11 <li>\cf10  Planes routinely crash by running out of fuel \cf11 </li>\cf10 \
+\'a0\'a0\cf11 <li>\cf10  Survival rates <b>improve</b> when the pilot ditches\cf11 </li>\cf10 \
+\'a0\'a0\cf11 <li>\cf10  There is a 0.00001% chance your plane will crash (according to 
+\f3\fs32 \cf14 \cb8 Professor Jeff Rosenthal) Not bad!
+\f1\fs24 \cf10 \cb1  \cf11 </li>\cf10 \
+\'a0\'a0\cf11 </ul>\cf3 	\
+\pard\pardeftab720\sl360
+\cf4 </h4>\cf3 \
+\
+\cf4 <h3>\cf3 Why More Veterans?\cf4 </h3>\cf3 \
+\
+\cf4 <h4>\cf3 \
+\cf4 <p>
+\f3\b\fs28 \cf0 \cb8 Next time you begin to focus on the possibility of something going wrong on a plane, think about the probability instead
+\b0 . Then you will have little to worry about.
+\f1\fs24 \cf4 \cb1 </p>\cf3 \
+\cf4 </h4>\cf3 \
+\
+\cf4 </div>\cf3   \
+\'a0\'a0\
+\cf4 </div>\cf3 \
+\
+\
+\
+\'a0\'a0\
+\
+\
+\
+\cf4 <script \cf5 src=\cf6 "http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"\cf4 ></script>\cf3 \
+\cf4 <script \cf5 src=\cf6 "http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js"\cf4 ></script>\cf3 \
+\
+\
+\cf4 </body>\cf3 \
+\cf4 </html>\cf3 \
+}
